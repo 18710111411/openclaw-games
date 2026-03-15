@@ -1,18 +1,3 @@
-# 🎮 OpenClaw Games
-
-> 游戏开发 + 小说创作仓库
-
----
-
-## 📁 项目目录
-
-| 项目 | 类型 | 状态 | 链接 |
-|------|------|------|------|
-| **末日防线** | 丧尸塔防游戏 | 🟡 策划中 | [查看](last-stand/) |
-| **青云宗** | 玄幻修仙小说 | 🟡 连载中 | [查看](novels/) |
-
----
-
 # 🧟 末日防线 (Last Stand)
 
 > 丧尸末日生存塔防游戏 - 建造防御塔，指挥英雄，在丧尸潮中生存！
@@ -43,15 +28,16 @@
 ## 📁 项目结构
 
 ```
-openclaw-games/
-├── last-stand/            # 末日防线游戏
-│   ├── Assets/            # 游戏资源
-│   ├── Docs/              # 设计文档
-│   └── README.md
-├── novels/                # 小说文件
-│   ├── current-novel/     # 当前连载
-│   ├── archives/          # 已完结
-│   └── INDEX.md           # 索引文件
+LastStand/
+├── Assets/
+│   ├── Scripts/           # 游戏代码 (C#)
+│   ├── Art/               # 美术资源
+│   ├── Audio/             # 音效音乐
+│   └── Resources/         # 数据表配置
+├── Docs/                  # 设计文档
+│   ├── 游戏设定集/
+│   ├── 技术设计/
+│   └── 美术设定/
 ├── .github/               # GitHub 配置
 ├── README.md
 └── LICENSE
